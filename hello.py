@@ -3,6 +3,7 @@
 def greet(name):
     print(f"Hello, {name}!")
     print("Welcome to GitHub!")
+    print(f"Your name has {len(name)} characters.")
 
 
 if __name__ == "__main__":
